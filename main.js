@@ -5,12 +5,12 @@ function preload() {
     song2 = loadSound("music2.mp3")
 }
 function setup() {
-    canvas = createCanvas(1000, 900);
+    canvas = createCanvas(900, 900);
     canvas.center();
 
     video = createCapture(VIDEO);
     video.hide();
 }
 function draw() {
-    image(video, 0, 0, 1200,1000);
+    image(video, 0, 0, 900,900);
 }
